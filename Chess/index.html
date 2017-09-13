@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Chess</title>
+    <link rel="stylesheet" href="output/style.css">
+  </head>
+  <body>
+    <div class="board">
+      <!-- Row 8 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">
+          <p>8</p>
+        </div>
+        <!--Cell A8-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9820;
+          </p>
+        </div>
+        <!--Cell B8-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9822;
+          </p>
+        </div>
+        <!--Cell C8-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9821;
+          </p>
+        </div>
+        <!--Cell D8-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9819;
+          </p>
+        </div>
+        <!--Cell E8-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9818;
+          </p>
+        </div>
+        <!--Cell F8-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9821;
+          </p>
+        </div>
+        <!--Cell G8-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9822;
+          </p>
+        </div>
+        <!--Cell H8-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9820;
+          </p>
+        </div>
+      </div>
+      <!-- Row 7 -->
+      <div class="row">
+        <!--Label column--><div class="label">7</div>
+        <!--cell A7-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--cell B7-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--cell C7-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--cell D7-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--cell E7-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--cell F7-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--cell G7-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9823;
+          </p>
+        </div>
+        <!--Cell H7-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9823;
+          </p>
+        </div>
+      </div>
+      <!-- Row 6 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">6</div>
+        <!--cell A6-->
+        <div class="cell"></div>
+        <!--cell B6-->
+        <div class="cell"></div>
+        <!--cell C6-->
+        <div class="cell"></div>
+        <!--cell D6-->
+        <div class="cell"></div>
+        <!--cell E6-->
+        <div class="cell"></div>
+        <!--cell F6-->
+        <div class="cell"></div>
+        <!--cell G6-->
+        <div class="cell"></div>
+        <!--cell H6-->
+        <div class="cell"></div>
+      </div>
+      <!-- Row 5 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">5</div>
+        <!--cell A5-->
+        <div class="cell"></div>
+        <!--cell B5-->
+        <div class="cell"></div>
+        <!--cell C5-->
+        <div class="cell"></div>
+        <!--cell D5-->
+        <div class="cell"></div>
+        <!--cell E5-->
+        <div class="cell"></div>
+        <!--cell F5-->
+        <div class="cell"></div>
+        <!--cell G5-->
+        <div class="cell"></div>
+        <!--cell H5-->
+        <div class="cell"></div>
+      </div>
+      <!-- Row 4 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">4</div>
+        <!--cell A4-->
+        <div class="cell"></div>
+        <!--cell B4-->
+        <div class="cell"></div>
+        <!--cell C4-->
+        <div class="cell"></div>
+        <!--cell D4-->
+        <div class="cell"></div>
+        <!--cell E4-->
+        <div class="cell"></div>
+        <!--cell F4-->
+        <div class="cell"></div>
+        <!--cell G4-->
+        <div class="cell"></div>
+        <!--cell H4-->
+        <div class="cell"></div>
+      </div>
+      <!-- Row 3 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">3</div>
+        <!--cell A3-->
+        <div class="cell"></div>
+        <!--cell B3-->
+        <div class="cell"></div>
+        <!--cell C3-->
+        <div class="cell"></div>
+        <!--cell D3-->
+        <div class="cell"></div>
+        <!--cell E3-->
+        <div class="cell"></div>
+        <!--cell F3-->
+        <div class="cell"></div>
+        <!--cell G3-->
+        <div class="cell"></div>
+        <!--cell H3-->
+        <div class="cell"></div>
+      </div>
+      <!-- Row 2 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">2</div>
+        <!--cell A2-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell B2-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell C2-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell D2-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell E2-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell F2-->
+        <div draggable="true" class="cell">
+          <p class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell G2-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9817;
+          </p>
+        </div>
+        <!--cell H2-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9817;
+          </p>
+        </div>
+      </div>
+      <!-- Row 1 -->
+      <div class="row">
+        <!--Label column-->
+        <div class="label">1</div>
+        <!--cell A-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9814;
+          </p>
+        </div>
+        <!--cell B-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9816;
+          </p>
+        </div>
+        <!--cell C-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9815;
+          </p>
+        </div>
+        <!--cell D-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9813;
+          </p>
+        </div>
+        <!--cell E-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9812;
+          </p>
+        </div>
+        <!--cell F-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9815;
+          </p>
+        </div>
+        <!--cell G-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9816;
+          </p>
+        </div>
+        <!--cell H-->
+        <div class="cell">
+          <p draggable="true" class="piece">
+            &#9814;
+          </p>
+        </div>
+      </div>
+      <!-- cell Labels -->
+      <div class="row">
+        <div class="last-label">*</div>
+        <div class="column-label">A</div>
+        <div class="column-label">B</div>
+        <div class="column-label">C</div>
+        <div class="column-label">D</div>
+        <div class="column-label">E</div>
+        <div class="column-label">F</div>
+        <div class="column-label">G</div>
+        <div class="column-label">H</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

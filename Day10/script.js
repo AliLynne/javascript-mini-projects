@@ -1,5 +1,5 @@
-const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
-
+const checkboxes = document.querySelectorAll('.inbox');
+console.log(checkboxes);
 
 let lastChecked;
 
