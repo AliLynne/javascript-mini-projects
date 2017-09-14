@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS minichess</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div id="A1" ondrop="drop_handler(event);" ondragover="dragover_handler(event);" class="cell">
+        <p id="black-rook" ondragstart="dragstart_handler(event);" draggable="true" class="piece">&#9820;</p>
+      </div>
+      <div id="A2" ondrop="drop_handler(event);" ondragover="dragover_handler(event);" class="cell">
+        <p id="black-rook2" ondragstart="dragstart_handler(event);" draggable="true" class="piece">
+          &#9820;
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="B1" ondrop="drop_handler(event);" ondragover="dragover_handler(event);" class="cell">
+        <p id="black-bishop" ondragstart="dragstart_handler(event);" draggable="true" class="piece">
+        
+        </p>
+      </div>
+      <div id="B2" ondrop="drop_handler(event);" ondragover="dragover_handler(event);" class="cell">
+        <p id="white-bishop" ondragstart="dragstart_handler(event);" draggable="true" class="piece">
+
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

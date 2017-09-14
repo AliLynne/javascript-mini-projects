@@ -59,7 +59,7 @@ var pieces = document.querySelectorAll('.piece');
   piece.addEventListener('dragstart', handleDragStart, false);
   piece.addEventListener('dragenter', handleDragEnter, false);
   piece.addEventListener('dragover', handleDragOver, false);
-  piece.addEventListener('dragLeave', handleDragLeave, false);
+  piece.addEventListener('dragleave', handleDragLeave, false);
   piece.addEventListener('drop', handleDrop, false);
   piece.addEventListener('dragend', handleDragEnd, false);
 });
